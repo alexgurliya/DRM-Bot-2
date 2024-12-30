@@ -7,8 +7,8 @@ RUN apt-get update -y
 RUN apt-get install -y build-essential
 RUN apt -y install curl
 RUN apt-get -y install git
-RUN git clone https://github.com/axiomatic-systems/Bento4.git && \
-cd Bento4 &&\
+RUN git clone https://github.com/alexgurliya/DRM-Bot-2.git && \
+cd DRM-Bot-2 &&\
 apt-get -y install cmake && \
 mkdir cmakebuild && \ 
 cd cmakebuild/ && \
